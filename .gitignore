@@ -1,0 +1,93 @@
+
+# ==========================================
+# Gradle
+# ==========================================
+.gradle/
+**/build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Gradle local configuration
+gradle-app.setting
+.gradle-cache/
+
+# ==========================================
+# Kotlin
+# ==========================================
+*.class
+*.kotlin_module
+*.kotlin_metadata
+*.kotlin_builtins
+
+# Kotlin incremental compilation
+.kotlin/
+
+# ==========================================
+# Ktor
+# ==========================================
+# Application logs
+logs/
+*.log
+
+# Runtime files
+*.pid
+*.pid.lock
+
+# Local application configuration
+application-local.conf
+application-dev.conf
+
+# ==========================================
+# Visual Studio Code
+# ==========================================
+.vscode/
+.history/
+
+# ==========================================
+# Operating Systems
+# ==========================================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+.nfs*
+
+# ==========================================
+# Environment Variables & Secrets
+# ==========================================
+.env
+.env.*
+!.env.example
+
+*.jks
+*.keystore
+*.pem
+*.key
+
+# ==========================================
+# Temporary Files
+# ==========================================
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+
+# ==========================================
+# Test & Coverage Reports
+# ==========================================
+coverage/
+*.exec
+*.ec
+
+# ==========================================
+# Local Gradle Properties
+# ==========================================
+local.properties
