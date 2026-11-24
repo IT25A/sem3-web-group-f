@@ -3,4 +3,4 @@ ktor:
     port: 8080
   application:
     modules:
-      - de.it25a.RoutingKt.configureRouting
+      - de.it25a.planebook.RoutingKt.configureRouting

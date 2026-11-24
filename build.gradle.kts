@@ -11,13 +11,16 @@ application {
 }
 
 kotlin {
-    jvmToolchain(21)
+    jvmToolchain(25)
 }
+
 dependencies {
     implementation(ktorLibs.server.config.yaml)
     implementation(ktorLibs.server.core)
     implementation(ktorLibs.server.netty)
     implementation(libs.logback.classic)
+
+    implementation(libs.bundles.exposed)
 
     testImplementation(kotlin("test"))
     testImplementation(ktorLibs.server.testHost)
